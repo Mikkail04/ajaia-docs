@@ -9,9 +9,9 @@
 
 | Email | Use it to |
 |---|---|
-| `alice@ajaia.dev` | Owner flows: create, import, share, revoke, delete |
-| `bob@ajaia.dev` | Already an **editor** on Alice's "Welcome to Ajaia Docs" |
-| `carol@ajaia.dev` | Fresh account for testing a new share (try viewer access) |
+| `lena@ajaia.dev` | Owner flows: create, import, share, revoke, delete |
+| `ravi@ajaia.dev` | Already an **editor** on Lena's "Welcome to Ajaia Docs" |
+| `grace@ajaia.dev` | Fresh account for testing a new share (try viewer access) |
 
 The login page has one-click buttons for each account. Use **Switch user** in the top right to change accounts.
 

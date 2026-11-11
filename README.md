@@ -2,7 +2,7 @@
 
 A lightweight collaborative document editor inspired by Google Docs. Create, format, import and share documents, with owner / editor / viewer access.
 
-- **Live demo:** `PASTE_YOUR_DEPLOYED_URL_HERE`
+- **Live demo:** https://ajaia-docs-cpov.onrender.com/
 - **Stack:** Node.js 22 (built-in `http`, `node:sqlite`, `node:test`) + vanilla JS front end. **Zero npm dependencies**, no build step.
 
 ## Demo accounts

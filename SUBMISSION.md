@@ -2,7 +2,7 @@
 
 ## Links
 
-- **Live product:** `PASTE_YOUR_DEPLOYED_URL_HERE` (the first load after idle can take about a minute while the free instance wakes up)
+- **Live product:** https://ajaia-docs-cpov.onrender.com/ (the first load after idle can take about a minute while the free instance wakes up)
 - **Walkthrough video:** see [`VIDEO_URL.txt`](VIDEO_URL.txt)
 
 ## Test accounts (password for all: `demo1234`)

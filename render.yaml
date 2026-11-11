@@ -1,0 +1,15 @@
+# Render Blueprint: New > Blueprint > point at this repo.
+# Free plan note: the filesystem is ephemeral, so the SQLite file resets when the
+# service restarts, redeploys or spins down after 15 idle minutes. Demo users and the
+# sample document are re-seeded automatically on boot. See README "Deployment".
+services:
+  - type: web
+    name: ajaia-docs
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "22"

@@ -1,0 +1,6 @@
+Standup - Tuesday
+
+Yesterday: finished the sharing API and the permission tests.
+Today: polish the editor toolbar and the import errors.
+
+Blockers: none.

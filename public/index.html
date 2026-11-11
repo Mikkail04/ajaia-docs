@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ajaia Docs</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body>
+  <div id="app" aria-live="polite"></div>
+  <div id="toasts" role="status" aria-live="polite"></div>
+
+  <dialog id="share-dialog" aria-labelledby="share-title">
+    <form method="dialog" class="dialog-inner" id="share-form" novalidate>
+      <header class="dialog-header">
+        <h2 id="share-title">Share document</h2>
+        <button type="button" class="icon-btn" data-close aria-label="Close">✕</button>
+      </header>
+      <div id="share-add" class="share-add">
+        <label class="sr-only" for="share-email">Teammate</label>
+        <select id="share-email" required></select>
+        <label class="sr-only" for="share-role">Access level</label>
+        <select id="share-role">
+          <option value="editor">Can edit</option>
+          <option value="viewer">Can view</option>
+        </select>
+        <button type="submit" class="btn primary" id="share-submit">Share</button>
+      </div>
+      <p class="form-error" id="share-error" hidden></p>
+      <h3 class="subhead">People with access</h3>
+      <ul id="share-list" class="share-list"></ul>
+      <p class="hint">Demo app: accounts are seeded, so you can share with any of the demo users and then sign in as
+        them to check access.</p>
+    </form>
+  </dialog>
+
+  <dialog id="history-dialog" aria-labelledby="history-title">
+    <div class="dialog-inner">
+      <header class="dialog-header">
+        <h2 id="history-title">Version history</h2>
+        <button type="button" class="icon-btn" data-close aria-label="Close">✕</button>
+      </header>
+      <div class="history-body">
+        <ul id="history-list" class="history-list"></ul>
+        <div class="history-right">
+          <div id="history-preview" class="history-preview page-body"></div>
+          <div class="history-actions">
+            <button type="button" id="history-restore" class="btn primary" hidden>Restore this version</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script type="module" src="/app.js"></script>
+</body>
+
+</html>

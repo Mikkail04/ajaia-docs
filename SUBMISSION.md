@@ -36,4 +36,4 @@ The login page has one-click buttons for each account. Use **Switch user** in th
 
 **Incomplete / out of scope:** real-time co-editing, comments, version history UI, images and tables, link sharing, signup. On free Render hosting, data resets when the instance restarts or sleeps; demo data is re-seeded automatically.
 
-**Next 2 to 4 hours:** durable hosted storage, version history with restore, a TipTap/ProseMirror editor model as the base for real-time collaboration (Yjs), and export to `.md` / `.docx`.
+**Next 2 to 4 hours:** durable hosted storage, version history with restore, a structured editor library as the base for real-time collaboration (Yjs), and export to `.md` / `.docx`.
